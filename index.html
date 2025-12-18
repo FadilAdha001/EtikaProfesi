@@ -4,11 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
   <title>Materi 11 — Etika Profesi (HAKI)</title>
-  <meta name="description" content="Materi pertemuan ke-11: Etika Profesi & Hak Kekayaan Intelektual (HAKI). Ringkasan teori, studi kasus, kuis interaktif."/>
+  <meta name="description" content="Materi pertemuan ke-11: Hak Kekayaan Intelektual (HAKI). Ringkasan teori dan studi kasus interaktif."/>
   <style>
-    /* -----------------------------------------
-       Tema & Reset ringkas
-       ----------------------------------------- */
     :root{
       --bg:#f5f7fb;
       --card:#ffffff;
@@ -33,7 +30,6 @@
       padding-bottom:40px;
     }
 
-    /* Header */
     header{
       background:linear-gradient(90deg,var(--accent),#3b82f6);
       color:white;
@@ -50,14 +46,9 @@
     h1{font-size:20px;margin:0}
     p.lead{margin:6px 0 0;color:rgba(255,255,255,0.95);font-size:13px}
 
-    nav.site-nav{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
-    nav.site-nav a{background:rgba(255,255,255,0.12);color:white;padding:8px 12px;border-radius:10px;text-decoration:none;font-size:13px;}
-
-    /* Layout */
     .grid{display:grid;grid-template-columns:1fr;gap:18px}
     @media(min-width:980px){ .grid{grid-template-columns:2fr 380px} }
 
-    /* Cards */
     .card{
       background:var(--card);
       border-radius:var(--radius);
@@ -70,18 +61,15 @@
     .muted{color:var(--muted);font-size:13px}
     .badge{display:inline-block;padding:6px 10px;border-radius:999px;font-weight:600;font-size:13px;background:linear-gradient(180deg,#f0f8ff,#ecf7ff);color:var(--accent);border:1px solid #dbefff}
 
-    /* mini cards */
     .row-cards{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
     .mini{flex:1;min-width:160px;padding:12px;border-radius:10px;background:linear-gradient(180deg,#ffffff,#fbfdff);border:1px solid #f0f6ff}
 
     details{background:linear-gradient(180deg,#ffffff,#fbfdff);padding:10px;border-radius:8px;border:1px solid #eef6ff;margin-top:10px}
     summary{font-weight:700;cursor:pointer}
 
-    /* Studi Kasus */
     .case-facts{font-size:14px;color:var(--muted);margin-top:8px}
     .case-list{margin-top:10px;padding-left:18px;color:var(--muted)}
 
-    /* Quiz & Simulator */
     .question{margin-bottom:12px}
     .opts label{display:block;padding:10px;border-radius:8px;border:1px solid #e8f0ff;margin-bottom:8px;cursor:pointer}
     .opts input{margin-right:10px}
@@ -94,12 +82,8 @@
 
     footer{margin-top:22px;padding:18px 0;text-align:center;color:var(--muted);font-size:13px}
 
-    /* small helper */
     .small{font-size:13px;color:var(--muted)}
     .link{color:var(--accent);text-decoration:none;font-weight:600}
-    .toc{display:flex;gap:10px;flex-wrap:wrap}
-    .toc a{font-size:13px;color:var(--muted);text-decoration:none;padding:6px 10px;border-radius:8px;background:#fbfdff;border:1px solid #f1f7ff}
-
   </style>
 </head>
 <body>
@@ -109,108 +93,86 @@
         <div class="logo">EP</div>
         <div>
           <h1>Materi 11 — Etika Profesi (HAKI)</h1>
-          <p class="lead">Hak Kekayaan Intelektual, Lisensi Open Source, dan Studi Kasus interaktif.</p>
+          <p class="lead">Hak Kekayaan Intelektual: ringkasan & studi kasus interaktif siap-embed.</p>
         </div>
       </div>
-
-      <nav class="site-nav" aria-label="navigasi">
-        <a href="#beranda">Beranda</a>
-        <a href="#tujuan">Tujuan</a>
-        <a href="#materi">Materi</a>
-        <a href="#lisensi">Lisensi</a>
-        <a href="#kasus">Studi Kasus</a>
-        <a href="#tugas">Tugas & Kuis</a>
-      </nav>
     </div>
   </header>
 
-  <main class="container" id="beranda">
+  <main class="container" role="main">
     <div class="grid">
       <!-- MAIN COLUMN -->
       <div>
-        <!-- Beranda Card -->
-        <section class="card" id="home">
-          <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px">
-            <div>
-              <h2>Perkuliahan: Etika Profesi — Pertemuan 11</h2>
-              <div class="small">Dosen: [Nama Dosen] • Mata Kuliah: Etika Profesi • Semester: [Sem/Th]</div>
-            </div>
-            <div style="text-align:right">
-              <div class="badge">Pertemuan 11</div>
-            </div>
-          </div>
-
-          <p class="muted" style="margin-top:12px">
-            Modul ini berfokus pada penerapan Hak Kekayaan Intelektual (HAKI) di produk dan layanan digital,
-            membahas perbedaan hak cipta, paten, merek dagang, serta etika penggunaan lisensi open-source.
+        <!-- Pembahasan Singkat tentang HAKI (pengganti capaian) -->
+        <section class="card" id="pembahasan-haki">
+          <h2>Pembahasan Singkat tentang Hak Kekayaan Intelektual (HAKI)</h2>
+          <p class="muted" style="margin-top:10px">
+            Hak Kekayaan Intelektual (HAKI) adalah seperangkat hak hukum yang melindungi kreasi intelektual manusia. Di bidang Teknologi Informasi, HAKI mencakup beberapa ranah utama:
           </p>
-        </section>
 
-        <!-- Tujuan -->
-        <section id="tujuan" class="card" style="margin-top:16px">
-          <h3>1. Capaian Pembelajaran</h3>
-          <ul class="small" style="margin-top:8px">
-            <li>Menjelaskan konsep HAKI: Hak Cipta, Paten, dan Merek Dagang.</li>
-            <li>Membedakan lisensi perangkat lunak (MIT, GPL, Apache).</li>
-            <li>Menganalisis studi kasus dan menyusun rekomendasi mitigasi etis.</li>
-          </ul>
-        </section>
-
-        <!-- Materi -->
-        <section id="materi" class="card" style="margin-top:16px">
-          <h3>2. Ringkasan Materi (Konsep Kunci)</h3>
-
-          <div class="row-cards">
+          <div class="row-cards" style="margin-top:12px">
             <div class="mini">
-              <strong>Hak Cipta (Copyright)</strong>
-              <div class="small" style="margin-top:6px">
-                Melindungi ekspresi ide seperti source code, dokumentasi, desain UI. Perlindungan otomatis saat karya diciptakan.
+              <strong>Hak Cipta</strong>
+              <div class="small" style="margin-top:8px">
+                Melindungi wujud ekspresi (source code, dokumentasi, desain UI). Perlindungan muncul otomatis saat karya dibuat; pemanfaatan orang lain memerlukan izin kecuali diizinkan lisensi.
               </div>
             </div>
+
             <div class="mini">
-              <strong>Hak Paten (Patent)</strong>
-              <div class="small" style="margin-top:6px">
-                Melindungi penemuan teknis atau metode baru yang bersifat fungsional; memerlukan pendaftaran.
+              <strong>Hak Paten</strong>
+              <div class="small" style="margin-top:8px">
+                Melindungi penemuan teknis dan metode fungsional yang baru dan inventif (mis. algoritma yang dipatenkan). Paten butuh pendaftaran dan berlaku untuk jangka waktu tertentu.
               </div>
             </div>
+
             <div class="mini">
-              <strong>Merek Dagang (Trademark)</strong>
-              <div class="small" style="margin-top:6px">
-                Melindungi nama, logo, dan identitas visual untuk mencegah kebingungan konsumen.
+              <strong>Merek Dagang</strong>
+              <div class="small" style="margin-top:8px">
+                Melindungi nama, logo, atau identitas visual yang membedakan produk atau layanan di pasar sehingga mencegah kebingungan konsumen.
               </div>
             </div>
           </div>
 
           <details style="margin-top:12px">
-            <summary>Lisensi Open Source — ringkasan</summary>
+            <summary>Catatan singkat tentang lisensi open-source</summary>
             <div class="small" style="margin-top:8px">
-              <strong>MIT:</strong> sangat permisif, boleh digunakan dan dimodifikasi selama ada atribusi.<br>
-              <strong>GPL:</strong> copyleft — turunan harus berlisensi sama saat didistribusikan.<br>
-              <strong>Apache:</strong> permisif + klausul paten.
+              Lisensi mengatur bagaimana kode boleh digunakan dan didistribusikan. Contoh populer: <strong>MIT</strong> (permisif, butuh atribusi), <strong>GPL</strong> (copyleft — turunan harus berlisensi sama), <strong>Apache</strong> (permisif + klausul paten).
             </div>
           </details>
         </section>
 
-        <!-- Studi Kasus -->
-        <section id="kasus" class="card" style="margin-top:16px">
-          <h3>3. Studi Kasus Interaktif — "KopiTracker"</h3>
-          <p class="case-facts">Skenario singkat: Seorang developer merilis aplikasi <strong>KopiTracker</strong> yang membantu pengguna menemukan kedai kopi lokal.</p>
+        <!-- Ringkasan Materi -->
+        <section class="card" style="margin-top:16px">
+          <h3>Ringkasan Materi (Inti)</h3>
+          <ul class="small" style="margin-top:8px;line-height:1.6">
+            <li><strong>Ekspresi vs Ide:</strong> Hak cipta melindungi ekspresi (kode, dokumen), bukan ide atau algoritma abstrak.</li>
+            <li><strong>Kepatuhan Lisensi:</strong> Selalu periksa file LICENSE dari dependency sebelum menggunakan atau mendistribusikan ulang.</li>
+            <li><strong>Identitas Merek:</strong> Nama dan logo harus unik untuk menghindari pelanggaran merek dagang.</li>
+            <li><strong>Etika Praktis:</strong> Berikan atribusi, jangan mengklaim karya orang lain, dan dokumentasikan asal-usul dependency.</li>
+          </ul>
+        </section>
 
+        <!-- Studi Kasus -->
+        <section class="card" style="margin-top:16px">
+          <h3>Studi Kasus Interaktif — "KopiTracker"</h3>
+          <p class="case-facts">Rina mengembangkan aplikasi <strong>KopiTracker</strong> untuk menemukan kedai kopi. Berikut fakta penting:</p>
           <ul class="case-list">
-            <li>Kode peta: library open-source (lisensi MIT).</li>
-            <li>Logo & palet warna mirip brand kopi besar.</li>
-            <li>Nama aplikasi mengandung kata yang mirip merek terkenal.</li>
+            <li>Kode peta menggunakan library open-source berlisensi MIT.</li>
+            <li>Logo & warna aplikasi mirip dengan brand kopi besar.</li>
+            <li>Nama aplikasi mengandung kata yang hampir sama dengan merek terkenal.</li>
           </ul>
 
           <div style="margin-top:12px">
-            <h4>Simulasi Keputusan (Centang tindakan lalu klik "Analisis")</h4>
+            <h4>Simulasi Keputusan</h4>
+            <p class="small">Pilih tindakan yang Rina lakukan, lalu klik "Analisis".</p>
+
             <div style="margin-top:8px">
               <label><input type="checkbox" id="c_attrib"> Cantumkan teks lisensi MIT & atribusi</label><br>
               <label><input type="checkbox" id="c_rename"> Ubah nama aplikasi</label><br>
               <label><input type="checkbox" id="c_newlogo"> Ganti logo menjadi unik</label><br>
               <label><input type="checkbox" id="c_ignore"> Abaikan & tetap rilis</label><br>
 
-              <div style="margin-top:8px">
+              <div style="margin-top:10px">
                 <button class="btn" onclick="runCase()">Analisis</button>
                 <button class="btn-ghost" onclick="resetCase()">Reset</button>
               </div>
@@ -229,15 +191,15 @@
               const ignore = document.getElementById('c_ignore').checked;
 
               if(ignore){
-                out.innerHTML += '<div class="result warn">Mengabaikan masalah: Risiko tuntutan merek dagang & kebingungan pengguna. Bisa berujung pada permintaan penggantian nama/logo dan ganti rugi.</div>';
+                out.innerHTML += '<div class="result warn">Mengabaikan masalah: Risiko tuntutan merek dagang & kebingungan pengguna. Potensi: pemblokiran toko app, tuntutan, atau paksaan ganti nama.</div>';
               }
               if(attrib){
-                out.innerHTML += '<div class="result ok">Atribusi MIT: Wajib dan baik dilakukan. Tidak menghilangkan potensi masalah merek dagang.</div>';
+                out.innerHTML += '<div class="result ok">Atribusi MIT: Langkah penting untuk mematuhi lisensi open-source. Pastikan LICENSE atau bagian About menampilkan teks lisensi dan atribusi.</div>';
               }
               if(rename && newlogo){
-                out.innerHTML += '<div class="result ok">Mengubah nama & logo: Langkah paling aman untuk mengurangi risiko merek dagang.</div>';
+                out.innerHTML += '<div class="result ok">Mengubah nama & logo: Solusi paling efektif untuk mengurangi risiko merek dagang dan kebingungan konsumen.</div>';
               } else if(rename || newlogo){
-                out.innerHTML += '<div class="result">Mengubah salah satu elemen membantu, namun kombinasi nama+logo yang unik lebih efektif.</div>';
+                out.innerHTML += '<div class="result">Mengubah salah satu elemen membantu, namun kombinasi keduanya lebih aman secara hukum dan etika.</div>';
               }
               if(!attrib && !rename && !newlogo && !ignore){
                 out.innerHTML = '<div class="result warn">Belum ada tindakan: silakan pilih setidaknya 1 aksi untuk melihat analisis.</div>';
@@ -250,96 +212,6 @@
           </script>
         </section>
 
-        <!-- Tugas & Kuis -->
-        <section id="tugas" class="card" style="margin-top:16px">
-          <h3>4. Tugas & Kuis</h3>
-
-          <h4>Tugas Individu</h4>
-          <p class="small">Buat analisis 250–350 kata mengenai studi kasus di atas. Sertakan: jenis HAKI, risiko hukum & etika, serta rekomendasi mitigasi profesional.</p>
-          <p class="small"><strong>Pengumpulan:</strong> Google Form / Google Classroom (sertakan link ke repo GitHub atau PDF laporan).</p>
-
-          <hr style="margin:12px 0">
-
-          <h4>Kuis Singkat (5 soal)</h4>
-          <form id="quiz">
-            <div class="question">
-              <div><strong>1.</strong> Lisensi MIT mengizinkan?</div>
-              <div class="opts">
-                <label><input type="radio" name="q1" value="a"> Memerlukan semua turunan tetap berlisensi MIT</label>
-                <label><input type="radio" name="q1" value="b"> Penggunaan & modifikasi dibolehkan dengan atribusi</label>
-                <label><input type="radio" name="q1" value="c"> Melarang penggunaan komersial</label>
-              </div>
-            </div>
-
-            <div class="question">
-              <div><strong>2.</strong> Paten biasanya melindungi?</div>
-              <div class="opts">
-                <label><input type="radio" name="q2" value="a"> Ekspresi artistik</label>
-                <label><input type="radio" name="q2" value="b"> Nama brand</label>
-                <label><input type="radio" name="q2" value="c"> Metode atau penemuan teknis</label>
-              </div>
-            </div>
-
-            <div class="question">
-              <div><strong>3.</strong> Trademark melindungi?</div>
-              <div class="opts">
-                <label><input type="radio" name="q3" value="a"> Logo & nama produk</label>
-                <label><input type="radio" name="q3" value="b"> Source code</label>
-                <label><input type="radio" name="q3" value="c"> Algoritma</label>
-              </div>
-            </div>
-
-            <div class="question">
-              <div><strong>4.</strong> Contoh lisensi copyleft adalah?</div>
-              <div class="opts">
-                <label><input type="radio" name="q4" value="a"> MIT</label>
-                <label><input type="radio" name="q4" value="b"> GPL</label>
-                <label><input type="radio" name="q4" value="c"> Proprietary</label>
-              </div>
-            </div>
-
-            <div class="question">
-              <div><strong>5.</strong> Langkah pertama bila logo mirip brand besar?</div>
-              <div class="opts">
-                <label><input type="radio" name="q5" value="a"> Ubah nama & logo</label>
-                <label><input type="radio" name="q5" value="b"> Abaikan</label>
-                <label><input type="radio" name="q5" value="c"> Hapus semua kode open-source</label>
-              </div>
-            </div>
-
-            <div style="display:flex;gap:8px;margin-top:8px">
-              <button type="button" class="btn" onclick="grade()">Kirim</button>
-              <button type="button" class="btn-ghost" onclick="document.getElementById('quiz').reset();document.getElementById('qres').innerHTML='';">Reset</button>
-            </div>
-            <div id="qres"></div>
-          </form>
-
-          <script>
-            function grade(){
-              const answers = {q1:'b', q2:'c', q3:'a', q4:'b', q5:'a'};
-              let score=0, total=5;
-              for(const k in answers){
-                const el = document.querySelector('input[name="'+k+'"]:checked');
-                if(el && el.value === answers[k]) score++;
-              }
-              const pct = Math.round(score/total*100);
-              const out = document.getElementById('qres');
-              out.innerHTML = '<div class="result ok">Skor: '+score+'/'+total+' ('+pct+'%)</div>';
-              if(pct<100) out.innerHTML += '<div class="small">Rekomendasi: baca kembali bagian lisensi dan studi kasus lalu coba lagi.</div>';
-            }
-          </script>
-        </section>
-
-        <!-- Sumber & Penutup -->
-        <section id="refs" class="card" style="margin-top:16px">
-          <h3>5. Sumber & Bacaan Tambahan</h3>
-          <ul class="small">
-            <li>Ringkasan Undang-Undang HAKI (bisa diunggah ke Drive dan dicantumkan link).</li>
-            <li>Dokumentasi lisensi open-source: MIT, GPL, Apache.</li>
-            <li>Contoh README & LICENSE untuk publikasi di GitHub.</li>
-          </ul>
-          <p class="small">Catatan: kontak dosen / asisten dapat ditambahkan di bagian kanan (sidebar).</p>
-        </section>
       </div>
 
       <!-- SIDEBAR -->
@@ -349,34 +221,17 @@
           <div class="small" style="margin-top:8px">
             <ol>
               <li>Periksa lisensi dependency sebelum rilis.</li>
-              <li>Cantumkan file <code>LICENSE</code> & atribusi di About.</li>
-              <li>Pastikan nama/logo unik untuk menghindari pelanggaran trademark.</li>
+              <li>Cantumkan file <code>LICENSE</code> & atribusi di About/README.</li>
+              <li>Pastikan nama & logo unik untuk menghindari pelanggaran trademark.</li>
             </ol>
-          </div>
-        </div>
-
-        <div class="card" style="margin-top:12px">
-          <h3>Kontak & Pengumpulan</h3>
-          <div class="small" style="margin-top:8px">
-            Dosen: <strong>[Nama Dosen]</strong><br>
-            Email: <a class="link" href="mailto:you@example.com">you@example.com</a><br>
-            Pengumpulan tugas: Google Classroom / Google Form.
-          </div>
-        </div>
-
-        <div class="card" style="margin-top:12px">
-          <h3>Embed & Host</h3>
-          <div class="small" style="margin-top:8px">
-            Unggah file ini ke GitHub lalu aktifkan GitHub Pages (branch <code>main</code> / <code>gh-pages</code>). Gunakan URL file HTML untuk embed di Google Sites.
           </div>
         </div>
       </aside>
     </div>
 
     <footer>
-      <div class="small">Template Materi 11 • Etika Profesi — Siap di-host di GitHub Pages • © 2025</div>
+      <div class="small">Kelompok 2 • Etika Profesi — 07TPLP001 • © 2025</div>
     </footer>
   </main>
-
 </body>
 </html>
